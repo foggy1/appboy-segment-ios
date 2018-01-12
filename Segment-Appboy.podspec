@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/appboy/appboy-segment-ios"
   s.license          =  { :type => 'MIT' }
   s.author           = { "Appboy" => "hello@appboy.com" }
-  s.source           = { :git => "https://github.com/appboy/appboy-segment-ios.git", :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/foggy1/appboy-segment-ios.git', :branch => 'core-podspec-foggy' }
   s.social_media_url = 'https://twitter.com/appboy'
 
   s.platform     = :ios, '8.0'
